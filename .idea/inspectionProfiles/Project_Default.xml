@@ -1,0 +1,42 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <list>
+          <option value="matplotlib" />
+          <option value="seaborn" />
+          <option value="bokeh" />
+          <option value="altair" />
+          <option value="plotnine" />
+          <option value="missingno" />
+          <option value="wordcloud" />
+          <option value="folium" />
+          <option value="geopandas" />
+          <option value="yellowbrick" />
+          <option value="kaleido" />
+          <option value="lightgbm" />
+          <option value="catboost" />
+          <option value="pingouin" />
+          <option value="jupyterlab" />
+          <option value="notebook" />
+          <option value="ipywidgets" />
+          <option value="kagglehub" />
+          <option value="fastparquet" />
+          <option value="ydata-profiling" />
+          <option value="shap" />
+          <option value="eli5" />
+          <option value="imbalanced-learn" />
+          <option value="torchvision" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyStubPackagesAdvertiser" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <list>
+          <option value="pandas" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
