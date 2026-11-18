@@ -1,0 +1,5 @@
+sales_channel_id,sales_channel,total_order_count,refunded_count,refunded_order_pct,net_paid_thousand_rub
+CH-003,Телефон,380,46,12.11,4271.27845
+CH-002,Магазин,366,43,11.75,3468.04305
+CH-004,Маркетплейс,365,50,13.7,3978.24215
+CH-001,Сайт,344,42,12.21,3279.12945

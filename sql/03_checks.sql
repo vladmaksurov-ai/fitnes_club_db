@@ -60,7 +60,7 @@ GROUP BY o.order_id;
 SELECT o.order_id,
        o.paid_rub,
        COALESCE(SUM(p.payment_amount_rub), 0) AS payment_total_rub,
-       ABS(o.paid_rub - COALESCE(SUM(p.payment_amount_rub), 0)) <=0.1 AS passed
+       ABS(o.paid_rub - COALESCE(SUM(p.payment_amount_rub), 0)) <=0.01 AS passed
 FROM orders AS o
          LEFT JOIN payments AS p ON p.order_id = o.order_id
 GROUP BY o.order_id
